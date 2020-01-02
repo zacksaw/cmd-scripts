@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=bbmap_simple  # Job name
 #SBATCH --mail-type=END,FAIL # Mail events (NONE, BEGIN, END, FAIL, ALL)
-#SBATCH --mail-user=sawagz01@nyu.edu # Where to send mail
+#SBATCH --mail-user= # Where to send mail
 #SBATCH --ntasks=4 # Run on a single CPU
 #SBATCH --mem=80gb # Job memory request
 #SBATCH --time=09:00:00 # Time limit hrs:min:sec
